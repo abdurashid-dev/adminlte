@@ -1,8 +1,7 @@
 ## Adminlte starter kit
 
-•	Author: [Abdurashid](https://github.com/Abdurashid-dev) <br>
-•	Telegram: [@abdurashid_coder](https://t.me/abdurashid_coder) <br>
-•	Instagram: [@abdurashid___17](https://www.instagram.com/abdurashid___17/) <br>
+•	Author: [Abdurashid](https://github.com/abdurashid-dev) <br>
+•	Telegram: [@abdurashid_coder](https://t.me/abdurashid17) <br>
 
 ## Usage <br>
 Setup your coding environment <br>
