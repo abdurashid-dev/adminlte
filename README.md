@@ -1,12 +1,12 @@
 ## Adminlte starter kit
 
 •	Author: [Abdurashid](https://github.com/abdurashid-dev) <br>
-•	Telegram: [@abdurashid_coder](https://t.me/abdurashid17) <br>
+•	Telegram: [@abdurashid17](https://t.me/abdurashid17) <br>
 
 ## Usage <br>
 Setup your coding environment <br>
 ```
-git clone https://github.com/Abdurashid-dev/adminlte.git
+git clone https://github.com/abdurashid-dev/adminlte.git
 cd adminlte
 composer install
 npm install
@@ -15,7 +15,6 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan cache:clear && php artisan config:clear 
-php artisan serve 
 ```
 
 ## Database Setup <br>
@@ -34,3 +33,21 @@ Next up, we need to create the database which will be grabbed from the ```DB_DAT
 mysql;
 create database adminlte;
 exit;
+```
+
+Postgres database setup <br>
+.env file setup
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=adminlte
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+```
+Create database with terminal
+```
+psql postgres;
+CREATE DATABASE adminlte;
+\q
+```
